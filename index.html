@@ -2754,6 +2754,20 @@ ${order.items.map(item => {
             }
         }
 
+        <!-- Yandex.RTB R-A-18594993-1 -->
+<div id="yandex_rtb_R-A-18594993-1"></div>
+<script>
+window.yaContextCb.push(() => {
+    Ya.Context.AdvManager.render({
+        "blockId": "R-A-18594993-1",
+        "renderTo": "yandex_rtb_R-A-18594993-1"
+    })
+})
+</script>
+        
+        <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async>
         function updateModalQuantity(change) {
             const newQuantity = modalQuantity + change;
 
@@ -2773,7 +2787,7 @@ ${order.items.map(item => {
                 alert('Недостаточно товара на складе');
                 return;
             }
-
+        
             // Check if item already exists in cart
             const existingItem = cart.find(item =>
                 item.id === currentModalProduct.id &&
@@ -2818,4 +2832,5 @@ ${order.items.map(item => {
             document.getElementById(`tab-${tabName}`).className = 'modal-tab font-bold text-primary border-b-2 border-primary pb-2';
             document.getElementById(`modal-tab-${tabName}`).classList.remove('hidden');
         }
+
         (function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'9753caf25710bbc4',t:'MTc1NjIxNjE2OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
